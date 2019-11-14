@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab-control",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Control Panel Button for JupyterLab",
   "keywords": [
     "jupyter",
@@ -31,12 +31,13 @@
   },
   "dependencies": {
     "@jupyterlab/application": "^1.0.0",
-    "@phosphor/widgets": "^1.6.0",
-    "jupyterlab-topbar": "^0.4.0"
+    "@phosphor/widgets": "^1.9.3",
+    "jupyterlab-topbar": "^0.4.0",
+    "tsc": "^1.20150623.0"
   },
   "devDependencies": {
-    "rimraf": "^2.6.1",
-    "typescript": "~3.5.1"
+    "rimraf": "^2.7.1",
+    "typescript": "^3.5.3"
   },
   "jupyterlab": {
     "extension": true
