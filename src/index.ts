@@ -2,7 +2,7 @@ import {
   JupyterFrontEnd, JupyterFrontEndPlugin, IRouter
 } from '@jupyterlab/application';
 
-import { Widget } from '@phosphor/widgets';
+import { Widget } from '@lumino/widgets';
 
 import { ITopBar } from "jupyterlab-topbar";
 

@@ -6,6 +6,8 @@
 
 Control Panel Button for JupyterLab
 
+![screenshot](./doc/screenshot.png)
+
 ## Additional configuration
 
 Button leads to /user/<user_name>/<lab_name>/home. Additional redirect rule in proxy is required, to actually send the user to the ControlPanel.
