@@ -23,7 +23,7 @@ const extension: JupyterFrontEndPlugin<void> = {
     control.id = "control";
     control.innerHTML = "Control Panel";
     control.addEventListener('click', function () {
-      router.navigate('/home', { hard: true });
+      router.navigate([]).then(result => {  window.open('/home', '_blank'); });
     });
 
     const widget = new Widget({node: control});
